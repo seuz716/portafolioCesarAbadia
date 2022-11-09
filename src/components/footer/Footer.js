@@ -19,11 +19,11 @@ const Footer = () => {
               wrapper="p"
               steps={[
                 "Entusiasta Developer 🌇",
-                1000,
+                500,
                 "Dev Full Stack 💻",
-                1000,
+                500,
                 "Mern Stack Dev 🚄",
-               1000,
+               500,
               ]}
             />
           </h1>
