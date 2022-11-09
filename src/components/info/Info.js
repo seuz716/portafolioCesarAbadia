@@ -13,7 +13,7 @@ const Info = () => {
 
         <div className="profile-options">
           <a href="ResumeEs.pdf" download="ResumeEs.pdf">
-          <button className="btn ">Obten mi CV </button>
+          <button className="btn ">Obten mi hoja de vida </button>
         </a>
       </div>
         </div>

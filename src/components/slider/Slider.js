@@ -8,7 +8,8 @@ const Slider = () => {
   return (
     <div className="carousel-container">
       <div className="carousel-title">
-        <h2>Proyectos</h2>
+        <h2>Mis Proyectos</h2>
+        <p>Desplaza y dale click para ver algunos de mis desarrollos</p>
       </div>
 
       

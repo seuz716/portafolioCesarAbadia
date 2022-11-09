@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="profile-picture-background"></div>
       </div>
       <div className="footer-info">
-      <h1>César Andrés Abadía Dávila </h1>
+      <h2>César Andrés Abadía Dávila </h2>
         <span className="primary-text">
           {""}
           <h1>
@@ -18,14 +18,12 @@ const Footer = () => {
               loop={Infinity}
               wrapper="p"
               steps={[
-                "Entusiasta Dev 🌇",
-                100,
-                "Dev Full Stack 💻",
-                3000,
-                "React Dev 🔢",
+                "Entusiasta Developer 🌇",
                 1000,
-                "MERN  Dev 🚄",
-                3000,
+                "Dev Full Stack 💻",
+                1000,
+                "Mern Stack Dev 🚄",
+               1000,
               ]}
             />
           </h1>
