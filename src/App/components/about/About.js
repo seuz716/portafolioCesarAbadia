@@ -1,4 +1,5 @@
 import React from "react";
+const video = "https://res.cloudinary.com/seuz716/video/upload/v1667853350/CoverVideo_e0qhsh.mp4"
 import "./About.css";
 
 const About = () => {
@@ -60,6 +61,14 @@ const About = () => {
           Business Suit en plataforma Oracle, software CG-UNO, DATAX, SAI,
           DATALOAD, entre otros</p>
           <br/>
+
+           <div className="about-img">
+        <img
+          className="foto"
+          src="https://res.cloudinary.com/seuz716/image/upload/v1667792066/desarrollo_hpe2f6.jpg"
+          alt="about"
+        />
+      </div>
           <h4>Docente en instituciones privadas </h4>
           <br/>
           <p> Docente en instituciones privadas, Contabilidad
@@ -79,14 +88,16 @@ const About = () => {
           de sí mismo y confío en las decisiones que tomo. . 
         </p>
       </div>
-      <div className="about-img">
-        <img
-          className="foto"
-          src="https://res.cloudinary.com/seuz716/image/upload/v1667792066/desarrollo_hpe2f6.jpg"
-          alt="about"
+      <div className="c">
+        <video
+          className="video2"
+          src={video}
+          alt="video"
+          autoPlay loop muted
         />
       </div>
     </div>
+    
   );
 };
 

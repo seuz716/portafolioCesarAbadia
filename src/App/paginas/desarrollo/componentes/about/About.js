@@ -1,6 +1,8 @@
 import React from "react";
 import "./about.css";
 
+
+
 const About = () => {
   return (
     <div className="about-container">
@@ -16,36 +18,52 @@ const About = () => {
           y de desenvolverme en un desarrollo web tanto en la parte del cliente
           (Front End) como del servidor (Back End).
         </p>{" "}
+        <div className="c">
+        <video
+          className="video2"
+          src={"https://www.youtube.com/watch?v=fohoWWPP_YI&ab_channel=CESARABADIA"}
+          alt="video"
+          autoPlay loop muted
+        />
+      </div>
         <p>
           Conocimientos sobre protocolos HTTP y REST, APIs, lógica de negocio,
           asincronía, etc. softwares de control de versiones como Git para
           controlar los cambios en el código y poder trabajar de manera
           colaborativa conjuntos de servicios tecnológicos utilizados para
           construir y ejecutar una única aplicación.
-          {/* <p>
-            {" "}
+          <p>
+          
             En concreto MERN Stack es un conjunto de subsistemas de software
             para el desarrollo de aplicaciones, que incluye las tecnologías
             Mongo DB, Express.js, React.js y Node.js La combinación de estas
             cuatro tecnologías me permite crear sitios web (y aplicaciones)
             completos; usando React (con JavaScript o TypeScript) del lado del
             cliente (front-end) y Node JS del lado del servidor (back-end).
-          </p>{" "} */}
-          Así puedo ,diseñar tanto la parte visual (la experiencia del usuario)
+          </p>
+          <p> Así puedo ,diseñar tanto la parte visual (la experiencia del usuario)
           y para esto uso tecnologías como bootstrap,Css, Html5 ,Taildwind, asi
           como, la parte algorítmica y lógica del servidor usando las diferentes
-          librerías JavaScript.
+          librerías JavaScript.</p>
         </p>
-        {/* Poseo valores como la sinceridad, la responsabilidad y la honradez; me
+        <p>Poseo valores como la sinceridad, la responsabilidad y la honradez; me
         siento muy a gusto trabajando en equipo. Soy una persona con una alta
         facilidad de absorber conocimientos teóricos y prácticos y así mismo
         trasmitirlos y ejecutarlos, tengo facilidades para la comunicación en
         los diversos ámbitos de esta, alta afinidad hacia las personas que me
         rodean, logrando influenciar hacia la búsqueda del conocimiento y mejora
-        continua */}.
+        continua </p>
         <br/>
         <h4>Contador Público de la Universidad del Valle </h4>
         <br/>
+        <div className="c">
+        <video
+          className="video2"
+          src={"https://www.youtube.com/watch?v=fohoWWPP_YI&ab_channel=CESARABADIA"}
+          alt="video"
+          autoPlay loop muted
+        />
+      </div>
         <p>
           Contador público de la Universidad del Valle, con 10 años de
           experiencia en el el sector comercial y de la salud,
@@ -59,7 +77,14 @@ const About = () => {
           financiero , manejo de los módulos AP, PO, Proveedores y GL del EPR E
           Business Suit en plataforma Oracle, software CG-UNO, DATAX, SAI,
           DATALOAD, entre otros</p>
-          <br/>
+          <div className="c">
+        <video
+          className="video2"
+          src={"https://www.youtube.com/watch?v=fohoWWPP_YI&ab_channel=CESARABADIA"}
+          alt="video"
+          autoPlay loop muted
+        />
+      </div>
           <h4>Docente en instituciones privadas </h4>
           <br/>
           <p> Docente en instituciones privadas, Contabilidad
@@ -67,25 +92,30 @@ const About = () => {
           Docente de las áreas comerciales y de matemáticas, en diversos
           colegios a nivel de secundaria, educación para adultos, principalmente
           población vulnerable, en el distrito de Aguablanca de Cali.
-          {/* Me motivan los   desafíos, el prestigio, los logros y la independencia para actuar,
+          Me motivan los   desafíos, el prestigio, los logros y la independencia para actuar,
           dentro del marco establecido, Tengo gran capacidad para organizar y
           dirigir a los demás, para obtener resultados para la empresa que me
           propongo.
            Tiendo a ser directo, decidido e independiente, también
-          amistoso y extrovertido,  */}
+          amistoso y extrovertido,  *
+          
           <br/>Prefiero tener responsabilidades de trabajo claras, es importante cierta libertad razonables para implementarlas.</p>
+
           Soy proactivo, Tomo mis decisiones, basado en la información o datos
-          que están regularmente disponibles. <p>En general soy un individuo seguro
+          que están regularmente disponibles. 
+          <div className="c">
+        <video
+          className="video2"
+          src={"https://www.youtube.com/watch?v=fohoWWPP_YI&ab_channel=CESARABADIA"}
+          alt="video"
+          autoPlay loop muted
+        />
+      </div>
+          <p>En general soy un individuo seguro
           de sí mismo y confío en las decisiones que tomo. . 
         </p>
       </div>
-      <div className="about-img">
-        <img
-          className="foto"
-          src="https://res.cloudinary.com/seuz716/image/upload/v1667796640/equipo_de_trabajo_hnfhzt.jpg"
-          alt="about"
-        />
-      </div>
+     
     </div>
   );
 };

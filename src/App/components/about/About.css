@@ -6,21 +6,9 @@
 
   }
   
-  .foto{
-    width: 100%;
-  }
-  .about-desc {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 55%;
-    padding: 0.5% 0.5% 0.5% 0.5%;
-    margin: 1px;   
-  }
-  
-  .about-desc > h3 {
-    font-size: 28px;
-  }
+ 
+ 
+
   
   .about-desc > p {
     line-height: 1.5;
@@ -53,16 +41,14 @@
     }
   
     .about-desc > h3 {
-      font-size: 20px;
+      font-size: calc(2.5vw + 5vw);
       text-align: center;
     }
   
     .about-img {
-      width: 100%;
+      width: 1vmax;
       margin-bottom: 50px;
     }
   
-    .about-img > img {
-      width: 100%;
-    }
+   
   }

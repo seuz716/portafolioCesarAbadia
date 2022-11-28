@@ -1,12 +1,10 @@
 import React from "react";
-import "../../../../components/cover/Cover.css"
-const video1 = "https://res.cloudinary.com/seuz716/video/upload/v1667853350/CoverVideo_e0qhsh.mp4"
+const video = require("https://res.cloudinary.com/seuz/image/upload/v1669571017/videos/WhatsApp_Image_2021-01-25_at_12.01.30_eopdzv.jpg")
 const Cover = () => {
   return (
     <div className="cover-container"  >
-      <video className="video" src= {video1}   autoPlay loop muted/>
-      <h1 >César Andrés Abadía Dávila</h1>
-      <p> Desarollador | Diseñador | Contador Público | Creador de contenido </p>
+          <video className="video" src= {video}   autoPlay loop muted/>
+   
     </div>
   );
 };
