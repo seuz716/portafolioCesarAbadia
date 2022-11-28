@@ -1,0 +1,54 @@
+.about-container {
+    display: flex;
+    background-color: white;
+    color: black;
+    padding-top: 0.1%;
+
+  }
+  
+ 
+ 
+
+  
+  .about-desc > p {
+    line-height: 1.5;
+    text-align: justify;
+  }
+  
+  .about-img {
+    padding: 1%;
+    width: 70%;
+    display: flex;
+    align-self: center;
+    overflow: hidden;
+    border-radius: 20%;
+    height: 100%;
+    
+    
+  }
+  
+  @media only screen and (max-width: 960px) {
+    .about-container {
+      flex-direction: column;
+      padding: 0;
+      height: auto;
+    }
+  
+    .about-desc {
+      width: 90%;
+      margin: 0 auto;
+      padding: 40px 20px 50px 20px;
+    }
+  
+    .about-desc > h3 {
+      font-size: calc(2.5vw + 5vw);
+      text-align: center;
+    }
+  
+    .about-img {
+      width: 1vmax;
+      margin-bottom: 50px;
+    }
+  
+   
+  }
