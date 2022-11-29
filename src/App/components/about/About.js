@@ -1,10 +1,9 @@
-import React from "react";
-const video = "https://res.cloudinary.com/seuz716/video/upload/v1667853350/CoverVideo_e0qhsh.mp4"
 import "./About.css";
+import React from "react";
 
 const About = () => {
   return (
-    <div className="about-container"> 
+    <div className="about-container">
       <div className="about-desc">
         <h3>Dejame contarte un poco de mi</h3>
         <hr />
@@ -43,10 +42,11 @@ const About = () => {
         trasmitirlos y ejecutarlos, tengo facilidades para la comunicación en
         los diversos ámbitos de esta, alta afinidad hacia las personas que me
         rodean, logrando influenciar hacia la búsqueda del conocimiento y mejora
-        continua */}.
-        <br/>
+        continua */}
+        .
+        <br />
         <h4>Contador Público de la Universidad del Valle </h4>
-        <br/>
+        <br />
         <p>
           Contador público de la Universidad del Valle, con 10 años de
           experiencia en el el sector comercial y de la salud,
@@ -54,50 +54,53 @@ const About = () => {
           auditoría fiscal en procedimientos tributarios; elaboración y
           auditoria en información exógena, elaboración y revisión de estados
           financieros, realización de pruebas sustantivas, de controles,
-          relacionamiento y atención de cliente.
-          excelente manejo de  Excel, (elaboración de macros, tablas dinámicas, funciones
-          especiales), herramientas ofimáticas   tales como Word, Power Point, Manejo de inventarios y Análisis
-          financiero , manejo de los módulos AP, PO, Proveedores y GL del EPR E
-          Business Suit en plataforma Oracle, software CG-UNO, DATAX, SAI,
-          DATALOAD, entre otros</p>
-          <br/>
-
-           <div className="about-img">
-        <img
-          className="foto"
-          src="https://res.cloudinary.com/seuz716/image/upload/v1667792066/desarrollo_hpe2f6.jpg"
-          alt="about"
-        />
-      </div>
-          <h4>Docente en instituciones privadas </h4>
-          <br/>
-          <p> Docente en instituciones privadas, Contabilidad
-          de los recursos, Legislación tributaría, legislación comercial,
-          Docente de las áreas comerciales y de matemáticas, en diversos
-          colegios a nivel de secundaria, educación para adultos, principalmente
-          población vulnerable, en el distrito de Aguablanca de Cali.
+          relacionamiento y atención de cliente. excelente manejo de Excel,
+          (elaboración de macros, tablas dinámicas, funciones especiales),
+          herramientas ofimáticas tales como Word, Power Point, Manejo de
+          inventarios y Análisis financiero , manejo de los módulos AP, PO,
+          Proveedores y GL del EPR E Business Suit en plataforma Oracle,
+          software CG-UNO, DATAX, SAI, DATALOAD, entre otros
+        </p>
+        <br />
+        <div className="ratio ratio-16x9">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/fohoWWPP_YI"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+            autoPlay
+          ></iframe>
+        </div>
+        <h4>Docente en instituciones privadas </h4>
+        <br />
+        <p>
+          {" "}
+          Docente en instituciones privadas, Contabilidad de los recursos,
+          Legislación tributaría, legislación comercial, Docente de las áreas
+          comerciales y de matemáticas, en diversos colegios a nivel de
+          secundaria, educación para adultos, principalmente población
+          vulnerable, en el distrito de Aguablanca de Cali.
           {/* Me motivan los   desafíos, el prestigio, los logros y la independencia para actuar,
           dentro del marco establecido, Tengo gran capacidad para organizar y
           dirigir a los demás, para obtener resultados para la empresa que me
           propongo.
            Tiendo a ser directo, decidido e independiente, también
           amistoso y extrovertido,  */}
-          <br/>Prefiero tener responsabilidades de trabajo claras, es importante cierta libertad razonables para implementarlas.</p>
-          Soy proactivo, Tomo mis decisiones, basado en la información o datos
-          que están regularmente disponibles. <p>En general soy un individuo seguro
-          de sí mismo y confío en las decisiones que tomo. . 
+          <br />
+          Prefiero tener responsabilidades de trabajo claras, es importante
+          cierta libertad razonables para implementarlas.
+        </p>
+        Soy proactivo, Tomo mis decisiones, basado en la información o datos que
+        están regularmente disponibles.{" "}
+        <p>
+          En general soy un individuo seguro de sí mismo y confío en las
+          decisiones que tomo. .
         </p>
       </div>
-      <div className="c">
-        <video
-          className="video2"
-          src={video}
-          alt="video"
-          autoPlay loop muted
-        />
-      </div>
     </div>
-    
   );
 };
 
