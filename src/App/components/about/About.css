@@ -6,7 +6,9 @@
 
   }
   
- 
+ .video2{
+    height: 500px;
+ }
  
 
   
@@ -49,6 +51,8 @@
       width: 1vmax;
       margin-bottom: 50px;
     }
-  
+  video2{
+    height: 200px;
+  }
    
   }
